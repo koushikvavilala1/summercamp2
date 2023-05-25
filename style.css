@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(7, 7, 67);
+    margin: 0 0 0 0;
+}
+.footer{
+    margin: 0px 0px 0px 0px;
+    background-color:#ECF8F9;
+    display: flex;
+    justify-content:left;
+    height: 50px;
+
+}
+.h-div ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    height: 25px;
+}
+.h-div ul li{
+    margin: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+    color: white;
+    /* position:fixed;
+    right: 0px;
+    left: 0px;
+    opacity: 1; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li:hover{
+    color: rgb(165, 165, 223);
+    font-size:large;
+}
+.left{
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 700;
+   
+}
+.left-sec{
+    background-color:rgb(11, 11, 65);
+    opacity: 0.6;
+    position: absolute;
+    padding: 12.5% 12.5% 12.5% 12.5%;
+    color: white;
+    padding-right: 606px;
+    padding-bottom: 125px;
+    padding-top: 100px;
+    font-size: 3rem;
+}
+.right-sec{
+    height: 583px;
+}
+.left-sec h1{
+    width: 500px;
+}
+.col{
+    color: rgb(211, 145, 210);
+}
+/* .col:hover{
+    font-size: 5rem;
+} */
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+#ran{
+    color: white;
+    font-size: larger;
+}
+.sec1-1 ul,.sec1-4 ul,.sec1-2 ul,.sec1-3 ul{
+    list-style:none;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.sec-prop,.sec-agent{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+ }
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color:#5C469C;
+    border-radius: 10px;
+}
+.more a{
+    color: white;
+    text-decoration: none;   
+}
+.more a:hover{
+    font-size: 1.02rem;
+    color:#E5F9DB;
+}
+#Agents{
+    color: white;
+    font-size: larger;
+}
+.sec2-1 ul,.sec2-2 ul,.sec2-3 ul{
+    list-style:none;
+    font-size: larger;
+    font-weight: 700;
+    background-color:#DBDFEA;
+    padding-left: 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+.sec-agent{
+    display: flex;
+    justify-content:space-around;
+    align-items: left;
+ }
+ #About{
+    color: white;
+    font-size: larger;
+ }
+ .bgc{
+    background-color: rgb(183, 235, 154);
+    position: absolute;
+    margin-left: 30%;
+    padding: 100px 100px 100px 100px;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-right:100px ;
+ }
+ .sec-about{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+ }
+ .pic1{
+    margin-top: 15px;
+ }
